@@ -3,12 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>Skinters - Mobile Phone Skins</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .product-grid {
+            display: table;
+            width: 100%;
+            border-spacing: 15px;
+        }
+
+        .product-item {
+            display: table-cell;
+            text-align: center;
+            vertical-align: top;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .product-item h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .product-item p {
+            margin: 5px 0;
+            color: #888;
+        }
+
+        .add-to-cart {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .add-to-cart:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
+    <!-- Your existing HTML content here -->
 
-    <h1>Hello, World!</h1>
-	<h2>Testing Skinters Website...</h2>
-    
+    <div class="product-section">
+        <h2>Mobile Phone Skins</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/iPhone_15_Pro_Concrete_Rock.jpeg" alt="Skin 1">
+                <h3>Skin 1</h3>
+                <p>$10.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/iPhone_15_Pro_Max_Grafitti.jpeg" alt="Skin 2">
+                <h3>Skin 2</h3>
+                <p>$15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/samsung-galaxy-s23-ultra-cyberhud--back.jpeg" alt="Skin 3">
+                <h3>Skin 3</h3>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/samsung-galaxy-s23-ultra-jedi-attack--back.jpeg" alt="Skin 4">
+                <h3>Skin 4</h3>
+                <p>$25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your existing HTML content here -->
+
 </body>
 </html>
